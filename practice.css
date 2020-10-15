@@ -1,0 +1,435 @@
+/* Nav Bar */
+
+.nav-list{
+  background:#aa7d7a;
+  list-style:none;
+  padding:15px;
+  text-align: center;
+}
+
+.nav-item{
+  display: inline-block;
+  font-family: 'Raleway', sans-serif;
+  color:white;
+  }
+
+.nav-item a{
+  text-decoration:none;
+  color:white;
+  font-size:20px;
+  margin: 75px;
+}
+
+
+.nav-item a:hover{
+  border-bottom: 1px solid white;
+  color:#563437;
+
+}
+
+
+/* Top Logo */
+
+.logo{
+  height: 90px;
+  width: 90px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+
+
+.fall{
+  font-size: 40px;
+  color: #563437;
+  text-align: center;
+  font-family: 'MuseoModerno', cursive;
+  margin-bottom: 70px;
+  margin-top: 70px;
+}
+
+
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    box-sizing: border-box;
+
+  }
+
+
+
+
+  .card {
+    text-align: center;
+    background-color: white;
+    margin-bottom: 150px;
+    box-sizing: border-box;
+
+  }
+
+  .card:hover{
+        box-sizing: border-box;
+
+    opacity: 0.7;
+  }
+
+
+
+  .info{
+    text-align: left;
+    margin-left: 10px;
+  }
+
+  .name{
+    font-family: 'Raleway', sans-serif;
+
+  }
+
+  .des{
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .price{
+    font-family: 'Raleway', sans-serif;
+  }
+
+/* Footer */
+
+
+footer {
+  background:#aa7d7a;
+position: absolute;
+width: 100%;
+height: 125px;
+margin-top:2280px
+
+}
+
+
+/* Copyright */
+
+
+.symbol{
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  margin-top: -47px;
+color: white;
+text-align: right;
+}
+
+
+/* Social Media */
+
+
+.icons a{
+color:white;
+margin-top: 10px;
+margin-right: 60px;
+text-decoration: none;
+}
+
+.icons{
+text-align: center;
+margin-left: 30px;
+display: inline-block;
+width: 100%;
+font-size:20px;
+}
+
+
+/* Middle Novia */
+
+
+.fword{
+  font-family: 'MuseoModerno', cursive;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+margin-top: -97px;
+}
+
+.bline{
+  margin-top: -30px;
+}
+
+
+/* Footer Links */
+
+.footer-list{
+  background:#aa7d7a;
+  list-style:none;
+  padding:15px;
+  text-align: left;
+  height: 40px;
+}
+
+.footer-item{
+  display: block;
+  margin-top: -9px;
+  margin-bottom: 20px;
+  font-family: 'Raleway', sans-serif;
+  color:white;
+  }
+
+.footer-item a{
+  text-decoration:none;
+  color:white;
+  font-size:17px;
+}
+
+
+.footer-item a:hover{
+  border-bottom: 1px solid white;
+  color:#563437;
+
+}
+
+
+
+
+
+/* Media Q */
+
+/* Tablet */
+
+@media screen and (max-width: 800px) {
+
+  .nav-item a{
+    margin-left: 00px;
+    font-size:15px ;
+  }
+
+
+  .column {
+    float: left;
+    width: 33%;
+    padding: 0 10px;
+    box-sizing: border-box;
+
+  }
+
+
+
+
+  .card {
+    margin-bottom: 60px;
+  
+  }
+
+
+
+  .name{
+    font-size: 14px;
+    }
+    
+    .des{
+    font-size: 10px;
+    }
+    
+    .price{
+    font-size: 13px;
+    }
+
+
+
+    /* Footer */
+
+
+        footer {
+            margin-top:1850px;
+            }
+        
+        
+        
+            .fword{
+              font-size: 30px;
+              margin-top: -80px;
+             
+            }
+        
+        
+        
+            .icons a{
+              margin-top: 10px;
+           
+              }
+        
+        
+              .bline{
+                margin-top: -10px;
+              }
+
+
+
+              .footer-item a{
+                  margin-top: -30px;
+                text-decoration:none;
+                color:white;
+                font-size:14px;
+              }
+
+              .icons{
+                font-size:20px;
+                }
+
+
+
+                .symbol{
+                    font-size: 13px;
+                    margin-top: -50px;
+                }
+
+
+
+
+}
+  
+/* Smartphone */
+
+@media screen and (max-width: 600px){
+  
+  .logo{
+    height: 60px;
+    width: 60px;
+  
+  }
+  
+  .nav-item a{
+    margin: 40px;
+    font-size:15px ;
+  }
+  
+
+
+.fall{
+  font-size: 30px;
+    color: #563437;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 70px;
+}
+
+
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 0 10px;
+  box-sizing: border-box;
+
+}
+
+
+
+.card {
+  margin-bottom: 90px;
+
+}
+
+
+
+.name{
+font-size: 15px;
+}
+
+.des{
+font-size: 10px;
+}
+
+.price{
+font-size: 13px;
+}
+
+
+/* Footer */
+
+
+footer {
+margin-top:1575px;
+}
+
+
+.symbol{
+  font-size: 11px;
+  margin-top: -47px;
+
+}
+
+
+/* Social Media */
+
+
+.icons a{
+color:white;
+margin-top: 10px;
+margin-right: 60px;
+text-decoration: none;
+}
+
+.icons{
+text-align: center;
+margin-left: 30px;
+display: inline-block;
+width: 100%;
+font-size:20px;
+}
+
+
+/* Middle Novia */
+
+
+.fword{
+  font-family: 'MuseoModerno', cursive;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+margin-top: -67px;
+}
+
+.bline{
+  margin-top: -30px;
+}
+
+
+/* Footer Links */
+
+.footer-list{
+  background:#aa7d7a;
+  list-style:none;
+  padding:15px;
+  text-align: left;
+  height: 40px;
+}
+
+.footer-item{
+  display: block;
+  margin-top: -9px;
+  margin-bottom: 20px;
+  font-family: 'Raleway', sans-serif;
+  color:white;
+  }
+
+.footer-item a{
+  font-size:15px;
+}
+
+
+.footer-item a:hover{
+  border-bottom: 1px solid white;
+  color:#563437;
+
+}
+
+
+
+
+
+
+
+}

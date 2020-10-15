@@ -1,0 +1,474 @@
+/* Nav Bar */
+
+.nav-list{
+    background:#aa7d7a;
+    list-style:none;
+    padding:15px;
+    text-align: center;
+  }
+  
+  .nav-item{
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    color:white;
+    }
+  
+  .nav-item a{
+    text-decoration:none;
+    color:white;
+    font-size:20px;
+    margin: 75px;
+  }
+
+
+  .nav-item a:hover{
+    border-bottom: 1px solid white;
+    color:#563437;
+
+  }
+
+
+
+/* Top Logo */
+
+.logo{
+    height: 90px;
+    width: 90px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+
+.join{
+    font-family: 'MuseoModerno', cursive;
+color: #301e20;
+text-align: center;
+font-size: 30px;
+margin-top: 5px;
+margin-bottom: 40px;
+}
+
+
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    box-sizing: border-box;
+
+  }
+
+
+
+.lefti{
+    height:500px;
+    width:350px;
+    margin-top: 70px;
+    margin-left: 300px;
+    
+}
+
+
+
+  .card {
+    background-color: white;
+    height: 300px;
+    box-sizing: border-box;
+
+  }
+
+  .card:hover{
+        box-sizing: border-box;
+
+    opacity: 0.7;
+  }
+
+.words{
+    margin-top: -10px;
+    text-align: center;
+}
+
+
+  input[type=text] {
+    width: 55%;
+    height: 40px;
+    padding: 12px 20px;
+    margin-bottom: 30px;
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+    color: #301e20;
+    border-color:white;
+     border-radius: 7px  
+  }
+  
+  
+  
+  fieldset{
+    background-color: #f3eeea;
+    height: 485px;
+    width: 500px;
+    display: inline;
+    border: none;
+    margin-top: 70px;
+    margin-left:290px;
+  }
+
+
+
+  input[type=submit]{
+    background-color: #563437; 
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    border: none;
+    text-align: center;
+    display: block;
+    margin-left: 190px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top:30px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius:6px;
+    box-shadow: 2px 3px 3px  #3a3534;}
+  
+  input[type=submit]:hover{
+    opacity: 0.7;
+      
+    }
+
+
+
+
+
+/* Footer */
+
+
+footer {
+    background:#aa7d7a;
+position: absolute;
+width: 100%;
+height: 100px;
+margin-top:670px
+
+}
+
+
+/* Copyright */
+
+
+.symbol{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    margin-top: -140px;
+color: white;
+text-align: right;
+}
+
+
+/* Social Media */
+
+
+.icons a{
+color:white;
+margin-top: 30px;
+margin-right: 60px;
+text-decoration: none;
+}
+
+.icons{
+text-align: center;
+margin-left: 30px;
+display: inline-block;
+width: 100%;
+font-size:30px;
+}
+
+
+/* Middle Novia */
+
+
+.fword{
+    font-family: 'MuseoModerno', cursive;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+margin-top: -100px;
+}
+
+.bline{
+    margin-top: -40px;
+}
+
+
+/* Footer Links */
+
+.footer-list{
+    background:#aa7d7a;
+    list-style:none;
+    padding:15px;
+    text-align: left;
+  }
+  
+  .footer-item{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+    color:white;
+    }
+  
+  .footer-item a{
+    text-decoration:none;
+    color:white;
+    font-size:17px;
+  }
+
+
+
+
+
+/* Media Q */
+
+/* Tablet */
+
+  @media screen and (max-width: 800px) {
+
+    .nav-item a{
+      margin-left: 00px;
+      font-size:15px ;
+    }
+
+    .join{
+        font-family: 'MuseoModerno', cursive;
+    color: #301e20;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: -5px;
+    margin-bottom: 40px;
+    }
+    
+    
+
+    
+    
+    .lefti{
+        height:400px;
+        width:275px;
+        margin-top: 70px;
+        margin-left: 10px;
+        
+    }
+    
+
+    /* Form */
+    
+    
+      input[type=text] {
+        width: 55%;
+        height: 30px;
+        font-size: 9px;
+        padding: 12px 20px;
+        margin-bottom: 35px;
+        font-family: 'Raleway', sans-serif;
+        box-sizing: border-box;
+        color: #301e20;
+        border-color:white;
+         border-radius: 7px;  
+      }
+      
+      
+      
+      fieldset{
+        background-color: #f3eeea;
+        height: 385px;
+        width: 315px;
+        display: inline;
+        border: none;
+        margin-top: 70px;
+        margin-left: 105px;
+      }
+    
+    
+    
+      input[type=submit]{
+        background-color: #563437; 
+        font-family: 'Raleway', sans-serif;
+        color: white;
+        border: none;
+        text-align: center;
+        display: block;
+        margin-left: 110px;
+        padding-left: 25px;
+        padding-right: 25px;
+        margin-top:-12px;
+        text-decoration: none;
+        font-size: 11px;
+        border-radius:6px;
+        box-shadow: 2px 3px 3px  #3a3534;}
+      
+      input[type=submit]:hover{
+        opacity: 0.7;
+          
+        }
+
+
+/* Footer */
+
+
+        footer {
+            margin-top:575px;
+            }
+        
+        
+        
+            .fword{
+              font-size: 30px;
+              margin-top: -70px;
+             
+            }
+        
+        
+        
+            .icons a{
+              margin-top: 30px;
+           
+              }
+        
+        
+              .bline{
+                margin-top: -10px;
+              }
+
+
+
+              .footer-item a{
+                  margin-top: -30px;
+                text-decoration:none;
+                color:white;
+                font-size:14px;
+              }
+
+
+              .footer-item a:hover{
+                border-bottom: 1px solid white;
+                color:#563437;
+            
+              }
+
+
+
+              .icons{
+                font-size:20px;
+                }
+
+
+
+                .symbol{
+                    font-size: 13px;
+                    margin-top: -125px;
+                }
+
+}
+
+
+
+
+
+/* Smartphone */
+
+@media screen and (max-width: 600px){
+
+    .logo{
+        height: 60px;
+        width: 60px;
+      
+      }
+
+
+
+      .lefti{
+        height:350px;
+        width:250px;
+        margin-top: 70px;
+        margin-left: -10px;
+        
+    }
+    
+    
+    
+      .card {
+        background-color: white;
+        height: 300px;
+        box-sizing: border-box;
+    
+      }
+    
+      .card:hover{
+            box-sizing: border-box;
+    
+        opacity: 0.7;
+      }
+    
+    .words{
+        margin-top: -25px;
+        text-align: center;
+    }
+    
+    
+      input[type=text] {
+        width: 53%;
+        height: 2px;
+        padding: 9px 20px;
+        margin-bottom: 30px;
+        font-family: 'Raleway', sans-serif;
+        box-sizing: border-box;
+        font-size: 8px;
+        color: #301e20;
+        border-color:white;
+         border-radius: 7px  
+      }
+      
+      
+      
+      fieldset{
+        background-color: #f3eeea;
+        height: 335px;
+        width: 115px;
+        display: inline;
+        border: none;
+        margin-top: 70px;
+        margin-left:30px;
+        margin-right: -20px;
+      }
+    
+    
+    
+      input[type=submit]{
+        background-color: #563437; 
+        font-family: 'Raleway', sans-serif;
+        color: white;
+        border: none;
+        text-align: center;
+        display: block;
+        padding-left: 25px;
+        padding-right: 25px;
+        margin-top:10px;
+        margin-right: 110px;
+        text-decoration: none;
+        font-size: 8px;
+        border-radius:6px;
+        box-shadow: 2px 3px 3px  #3a3534;}
+      
+      input[type=submit]:hover{
+        opacity: 0.7;
+          
+        }
+    
+    
+
+}

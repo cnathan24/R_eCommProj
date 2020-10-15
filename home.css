@@ -1,0 +1,626 @@
+/* Nav Bar */
+
+.nav-list{
+    background:#aa7d7a;
+    list-style:none;
+    padding:15px;
+    text-align: center;
+  }
+  
+  .nav-item{
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    color:white;
+    }
+
+
+  
+  .nav-item a{
+    text-decoration:none;
+    color:white;
+    font-size:20px;
+    margin: 75px;
+  }
+
+  .nav-item a:hover{
+    border-bottom: 1px solid white;
+    color:#563437;
+  }
+
+
+
+/* Top Logo */
+
+.logo{
+    height: 90px;
+    width: 90px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/* Hero Pic */
+
+.hero{
+    width: 100%;
+    box-shadow: 2px 4px 7px 1px grey;
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+
+
+
+/* Style the button and place it in the middle of the container/image */
+.shop {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  background-color: white;
+  font-family: 'Raleway', sans-serif;
+  color:black;
+  border:none;
+  box-shadow: 2px 3px 3px  #3a3534;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 6px 24px;
+  border-radius: 8px;
+margin-top: 375px;
+margin-left: 50px;
+}
+
+.shop:hover {
+background-color: rgb(124, 100, 100);
+color: white;
+}
+
+
+
+/* Services */
+
+h2{
+    font-size: 40px;
+    color: #563437;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 70px;
+}
+
+
+.row{
+    box-sizing: border-box;
+    display: flex;
+}
+
+
+
+.info{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.txt{
+    margin-left: 20px;
+    color: #563437;
+
+}
+
+
+.swap{
+    height: 80px;
+    width: 90px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+}
+
+
+
+.delivery{
+    height: 100px;
+    width: 80px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+}
+
+
+.wrap{
+    height: 80px;
+    width: 70px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+}
+
+/* Popout Statement */
+
+
+.dia{
+    background: #f3eeea;
+    height: 280px;
+    margin-bottom: 70px;
+}
+
+.statement{
+    font-family: 'MuseoModerno', cursive;
+    color: #563437;
+font-size: 70px;
+margin-left: 10px;
+padding: 50px;
+
+}
+
+.last{
+    margin-top: -200px;
+    margin-left: 300px;
+}
+
+.line{
+    margin-top: -90px;
+    margin-bottom: 40px;
+}
+
+
+.founded{
+    font-family: 'Raleway', sans-serif;
+font-size: 20px;
+color: #563437;
+text-align: right;
+vertical-align: top;
+margin-top: -205px;
+margin-right: 10px;
+
+}
+
+/* Footer */
+
+
+footer {
+    background:#aa7d7a;
+    display: block;
+width: 100%;
+height: 125px;
+margin-top:120px
+
+}
+
+
+/* Copyright */
+
+
+.symbol{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    margin-top: -30px;
+color: white;
+text-align: right;
+}
+
+
+/* Social Media */
+
+
+.icons a{
+color:white;
+margin-top: 10px;
+margin-right: 60px;
+text-decoration: none;
+}
+
+.icons{
+text-align: center;
+margin-left: 30px;
+display: inline-block;
+width: 100%;
+font-size:20px;
+}
+
+
+/* Middle Novia */
+
+
+.fword{
+    font-family: 'MuseoModerno', cursive;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+margin-top: -100px;
+}
+
+.bline{
+    margin-top: -30px;
+}
+
+
+/* Footer Links */
+
+.footer-list{
+    background:#aa7d7a;
+    list-style:none;
+    padding:15px;
+    text-align: left;
+    height: 40px;
+  }
+  
+  .footer-item{
+    display: block;
+    margin-top: -1px;
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+    color:white;
+    }
+  
+  .footer-item a{
+    text-decoration:none;
+    color:white;
+    font-size:17px;
+  }
+
+  .footer-item a:hover{
+    border-bottom: 1px solid white;
+    color:#563437;
+  
+  }
+
+
+  /* Media Q */
+
+
+  
+/* Tablet */
+
+  @media screen and (max-width: 800px) {
+    .nav-item a{
+      margin-left: 00px;
+      font-size:15px ;
+    }
+    
+
+
+    .shop {
+      position: absolute;
+      top: 50%;
+      left: 40%;
+      background-color: white;
+      font-family: 'Raleway', sans-serif;
+      color:black;
+      border:none;
+      box-shadow: 2px 3px 3px  #3a3534;
+      font-size: 10px;
+      padding: 6px 14px;
+      border-radius: 8px;
+    margin-top: 120px;
+    margin-left: 10px;
+    }
+
+
+
+    .info{
+      font-size: 13px;
+  }
+  
+  
+  
+  
+  .swap{
+      height: 60px;
+      width: 70px;
+  }
+  
+  
+  
+  .delivery{
+      height: 70px;
+      width: 60px;
+  }
+  
+  
+  .wrap{
+      height: 70px;
+      width: 60px;
+  }
+  
+
+
+
+
+
+
+
+
+    .dia{
+      height:200px;
+     margin-top: 90px;
+    }
+
+
+
+
+
+    .statement{
+      font-size: 40px;
+      margin-left: -40px;
+      margin-top: -40px;
+      }
+
+
+
+      .last{
+        margin-top: -160px;
+        font-size: 40px;
+        margin-left: 150px;
+      }
+      
+      .line{
+        margin-top: -80px;
+        margin-left: 20px;
+        margin-bottom: 40px;
+      }
+      
+      
+      .founded{
+      font-size: 14px;
+      text-align: right;
+      vertical-align: top;
+      margin-top: -150px;
+      margin-right: 10px;
+      
+      }
+
+
+      /* Footer */
+
+
+      footer {
+        margin-top:200px;
+        }
+    
+    
+    
+        .fword{
+          font-size: 30px;
+          margin-top: -90px;
+         
+        }
+    
+    
+    
+        .icons a{
+          margin-top: 10px;
+       
+          }
+    
+    
+          .bline{
+            margin-top: -10px;
+          }
+
+
+
+          .footer-item a{
+              margin-top: -30px;
+            text-decoration:none;
+            color:white;
+            font-size:14px;
+          }
+
+          .icons{
+            font-size:20px;
+            }
+
+
+
+            .symbol{
+                font-size: 13px;
+                margin-top: -25px;
+            }
+
+
+
+
+  }
+
+/* Smartphone */
+
+  @media screen and (max-width: 600px){
+    
+    /* Nav Bar */
+    
+    .nav-item a{
+      margin-left: 3px;
+      font-size: 15px;
+    }
+    
+    
+    /* Exclusive S */
+    
+    
+    h2{
+      font-size: 30px;
+    
+    }
+    
+        .logo{
+          height: 60px;
+          width: 60px;
+      }
+    
+    
+      .info{
+        font-size: 10px;
+    }
+    
+    
+    .txt{
+        margin-left: 10px;
+        color: #563437;
+    
+    }
+    
+    
+    .swap{
+        height: 40px;
+        width: 50px;
+    }
+    
+    
+    
+    .delivery{
+        height: 50px;
+        width: 40px;
+    }
+    
+    
+    .wrap{
+        height: 50px;
+        width: 40px;
+    }
+    
+    
+    
+    /* Button */
+    
+    .shop {
+      position: absolute;
+      top: 50%;
+      left: 40%;
+      background-color: white;
+      font-family: 'Raleway', sans-serif;
+      color:black;
+      border:none;
+      box-shadow: 2px 3px 3px  #3a3534;
+      font-size: 7px;
+      padding: 6px 14px;
+      border-radius: 8px;
+    margin-top: 35px;
+    margin-left: 20px;
+    }
+    
+    
+    
+    /* Hero Img */
+    
+    .hero{
+      margin-bottom: 50px;
+    
+    }
+    
+    
+    
+    /* Dialogue Box */
+    
+    
+    .dia{
+      height:200px;
+     margin-top: 20px;
+    }
+    
+    
+    .statement{
+    font-size: 30px;
+    margin-left: -40px;
+    margin-top: -40px;
+    }
+    
+    
+    
+    
+    .last{
+      margin-top: -140px;
+      margin-left: 110px;
+    }
+    
+    .line{
+      margin-top: -70px;
+      margin-left: 213px;
+      margin-bottom: 40px;
+    }
+    
+    
+    .founded{
+    font-size: 10px;
+    text-align: right;
+    vertical-align: top;
+    margin-top: -120px;
+    margin-right: 10px;
+    
+    }
+    
+    /* Footer */
+    
+    footer {
+    margin-top:100px
+    
+    }
+    
+    
+    
+    
+    .symbol{
+      font-size: 10px;
+      margin-top: -20px;
+      margin-right: 10px;
+    
+    }
+    
+    
+    /* Social Media */
+    
+    
+    .icons a{
+    color:white;
+    margin-top: 6px;
+    margin-right: 60px;
+    text-decoration: none;
+    }
+    
+    .icons{
+    text-align: center;
+    margin-left: 30px;
+    display: inline-block;
+    width: 100%;
+    font-size:20px;
+    }
+    
+    
+    /* Middle Novia */
+    
+    
+    .fword{
+      font-size: 30px;
+      margin-top: -65px;
+    }
+    
+    .bline{
+      margin-top: -28px;
+    }
+    
+    
+    /* Footer Links */
+    
+    
+    .footer-item{
+      margin-top: 5px;
+      margin-bottom: 10px;
+      }
+    
+    .footer-item a{
+      text-decoration:none;
+      color:white;
+      font-size:12px;
+    }
+    
+    
+      }
+    
+    
+    
